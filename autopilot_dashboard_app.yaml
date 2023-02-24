@@ -1,0 +1,11 @@
+users:
+  - default
+  - name: terraform
+    gecos: terraform
+    primary_group: hashicorp
+    sudo: ALL=(ALL) NOPASSWD:ALL
+    groups: users, admin
+    ssh_import_id:
+    lock_passwd: false
+    ssh_authorized_keys:
+      -  ssh-rsa ssh-rsa AAAAB3NzaC1yc2EAAAADAQABAAABgQDIPwmI3Hn8Bm/gsVlXR243tlDSAKKE18BdjC9D7TtWrKUj/ixWt9yI7d9tSDUwCdPEI9UnOBbVsuoXosvtjFrVPngv529YHUsPcuABe+0txbt1tV/Vkh6USZQ5ISN8aDACpZdTFuzGeRrrPjpdW8I6vanN/R9qtEcFsk3ccK4l1v5qIcU7UTLUTyeFDhEaQhme7t2+kdMs0OnOZtRxHPsxFSM8pwG7AyP1pX/YotrF7CY+ABhbRAOxjhrYyIko21LfuZEdaauY4vhS9A/cYUqaRFFfcdIF01qG0wRbX1nc8F1HcoJLAdW1U2XAlBnnrfMS6fM4vv0G+ijYEuZY4GvkG/XOuSlN943GWQscTB1omFrHAjiX7JrQ1eICL6NJ5vb8vA6PQ1Lqg0XsU4SFJdaUsgR0vWyZd48MRfpIJGElWBmwX0nu+48wl4Q1jJeXk1wtWvoT6zT8rTPbN8Brmakdqi5dF2Fn9ikMRrpwJ1ykuhYIAtL8JPo2a23sH3m+FSk= jeka@sapient
